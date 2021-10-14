@@ -9,7 +9,7 @@ from scipy.interpolate import griddata
 from cv2 import cv2
 import itertools
 import multiprocessing
-
+#
 
 your_mesh = mesh.Mesh.from_file ('/Users/shuan/Desktop/20210505_S_R/SCORPIO_R20210505.stl')
 x_coordinate = your_mesh.x[:,0].flatten()
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     #Distribute the parameter sets evenly across the cores
     res  = pool.map(process,paramlist)
     end_time_2 = time.time()    
-    print('O2 cosume time = ', end_time_2 - start_time , 's')   
+    print('O2 cosume time = ', end_time_2 - start_time , 's')  
 
 
 
