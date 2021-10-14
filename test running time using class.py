@@ -8,7 +8,7 @@ from scipy.interpolate import LinearNDInterpolator
 from scipy.interpolate import griddata
 from cv2 import cv2
 import test_cpp
-
+#
 
 
 your_mesh = mesh.Mesh.from_file ('/Users/shuan/Desktop/20210505_S_R/SCORPIO_R20210505.stl')
